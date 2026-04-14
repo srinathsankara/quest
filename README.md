@@ -106,4 +106,11 @@ outputs.tf    # prints ALB URL
 - Insted of self signed cert a proper domain with ACM DNS validation.
 - GCP deployment** — started the GCP setup but billing/API enablement took time; would complete it for full multi-cloud coverage
 
+Why I choose AWS and not other clouds:
+1. The /aws endpoint exists — nothing else does
+app.get('/aws', function (req,res) {
+    exec('bin/002', ...
+There's a dedicated bin/002 for AWS detection. No /gcp, no /azure. That alone tells me the app was built AWS-first.
 
+2. Pre-compiled binaries for Linux/AMD64 only
+The bin/ folder has no source code — just compiled executables. 
