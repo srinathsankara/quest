@@ -7,7 +7,7 @@ https://github.com/srinathsankara/quest
 https://quest-alb-794288304.us-east-2.elb.amazonaws.com/
 
 used charlesraegen038@gmail.com dummy account for AWS free account.
-s
+
 ## What was built
 
 Deployed the Rearc quest app on AWS using Docker, Terraform, and ECS Fargate with an Application Load Balancer and TLS.
